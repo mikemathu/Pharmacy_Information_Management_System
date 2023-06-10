@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy Information Management System", "Pharmacy Information Management System\Pharmacy Information Management System.csproj", "{83F10984-D41E-4BB5-959B-43C8B889758B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pharmacy Information Management System", "Pharmacy Information Management System\Pharmacy Information Management System.csproj", "{83F10984-D41E-4BB5-959B-43C8B889758B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{2394DB74-086F-4DA4-8EC0-DD3A0DBBA599}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{3B23591C-50EF-4702-A475-2525236DF305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Inventory", "Module.Inventory\Module.Inventory.csproj", "{FCFA4982-8AB1-4533-B886-F424C1A1C9DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Inventory", "Module.Inventory\Module.Inventory.csproj", "{FCFA4982-8AB1-4533-B886-F424C1A1C9DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Procurement", "Procurement", "{1DDFB255-4247-4944-851C-8876CBE22144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Procurement", "Module.Procurement\Module.Procurement.csproj", "{33F6D984-367E-487F-AEC9-71025D65B0A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{FCFA4982-8AB1-4533-B886-F424C1A1C9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCFA4982-8AB1-4533-B886-F424C1A1C9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCFA4982-8AB1-4533-B886-F424C1A1C9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F6D984-367E-487F-AEC9-71025D65B0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F6D984-367E-487F-AEC9-71025D65B0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F6D984-367E-487F-AEC9-71025D65B0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F6D984-367E-487F-AEC9-71025D65B0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3B23591C-50EF-4702-A475-2525236DF305} = {2394DB74-086F-4DA4-8EC0-DD3A0DBBA599}
 		{FCFA4982-8AB1-4533-B886-F424C1A1C9DD} = {3B23591C-50EF-4702-A475-2525236DF305}
+		{1DDFB255-4247-4944-851C-8876CBE22144} = {2394DB74-086F-4DA4-8EC0-DD3A0DBBA599}
+		{33F6D984-367E-487F-AEC9-71025D65B0A1} = {1DDFB255-4247-4944-851C-8876CBE22144}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {873F6D89-F621-4A6E-B505-675D2660B05E}
